@@ -23,10 +23,17 @@ header {
     margin-bottom: 0px;
     overflow: hidden;
 }
+#body-container{
+        margin-top: 120px;
+}
+.navbar{
+    padding: 0px;
+}
+.navbar-toggler{
+    border: 1px solid #4aaaa5;
+}
 .logo{
     background: #4aaaa5;
-    float:left;
-    width: 24%;
     padding: 20px;
     color: #fff;
   height: 100%;
@@ -63,13 +70,6 @@ header {
         overflow: auto;
 }
 
-.section-left, 
-.section-right{
-    float: left;
-}
-.section-left{
-    width: 650px;
-}
 
 .inner{
     padding: 30px;
@@ -96,6 +96,7 @@ header {
 
 .image-wrap{
     overflow: auto;
+        margin: 20px 0px;
 }
 
 .image-wrap img{
@@ -105,16 +106,18 @@ header {
 .section-left .content .image-content{
     position: absolute;
     z-index: 1000;
-    width: 263px;
+    max-width: 260px;
+    width: 100%;
     color: #fff;
     background: #4aaaa5;
-    margin-top: -64px;
+    margin-top: -50px;
 }
 
 .section-left .content .image-content p{
     text-align: center;
     color:#fff;
     line-height: 10px;
+        margin-top: 10px;
 }
 .container {
     width: 960px;
@@ -122,10 +125,6 @@ header {
     
 }
 
-.section-left .content{
-    padding: 3px;
-    overflow: auto;
-}
 
 .section-left .content p{
     color: #777777;
@@ -143,8 +142,8 @@ header {
 #connect {
     width: 270px;
     margin-bottom: 30px;
-    margin-left: 40px;
     margin-top: 1px;
+    width: 100%;
 }
 
 .section-left h2, 
@@ -184,7 +183,7 @@ header {
     margin-left:10px;
 }
 #connect .social ul li img{
-    width: 50px;
+    width: 40px;
 }
 
 #contact .contact-form{
